@@ -17,7 +17,7 @@ Installation
   conda create -n mayavi python==3.6
   conda activate mayavi
   git clone https://github.com/awethaileslassie/3D-Object-Detection-VIZ.git
-  cd mayavi
+  cd 3D-Object-Detection-VIZ/mayavi
   pip install -r requirements.txt
   pip install PyQt5  # replace this with any supported toolkit
   python setup.py install  # or develop
@@ -29,7 +29,7 @@ Demo
 ```
 conda activate mayavi
 
-cd  mayavi
+cd  3D-Object-Detection-VIZ/mayavi
 
 mayavi2 -x plot_3D_bbox.py
 ```
@@ -45,7 +45,7 @@ bbox = np.load('data/label/2011_09_26_0036_0030.npy')
 ```
 conda activate mayavi
 
-cd  mayavi
+cd  3D-Object-Detection-VIZ/mayavi
 
 mayavi2 -x plot_3D_bbox.py
 ```
